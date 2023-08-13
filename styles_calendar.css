@@ -1,0 +1,66 @@
+html, body { padding:0; margin: 0; }
+.p-3{
+    background-color: black;
+    height: 150px;
+    color: white;
+    /* display: inline; */
+}
+.nav-pills{
+    top:25px;
+    align-items: center;
+}
+.sidebar{
+    padding: 1rem !important; 
+    color: white;  
+    background-color: #000;
+    height: 100%;
+    width:280px;
+    bottom:0px;
+}
+.sibarinlist{
+    color:white;
+}
+
+
+.navbar{
+    height:100px;
+    color: white;
+    background-color: #000;
+}
+.logo{
+    
+    height: 100px;
+    position:relative;    
+}
+
+.card-text{
+    text-align:center;
+    font-size: 50px;
+}
+
+.buton{
+    font-size: 20px;;
+}
+.sidebar{
+    position: fixed;
+    top:150px;
+}
+.sidebar:hover{
+    overflow-y: scroll;
+ }
+.material{
+    position: relative;
+    left:300px;
+ }
+ .tpo{
+    background-color: #000;
+    color: white;
+ }
+
+.material{
+    width:500px;
+    text-align: center;
+ }
+ /* .February , .March , .April ,.May ,.June ,.July ,.August ,.September ,.October ,.November ,.December{
+    display: none;
+ } */

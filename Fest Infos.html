@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+  <link rel="icon" href="logo.png">
+    <head>
+        <meta name="viewport" content="device-width, initial=scale=1.0">
+        
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="styles_calendar.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <title>Party Sharty</title>
+    </head>
+
+    <body>
+        <header class="p-3 d-flex flex-wrap justify-content-center py-3 border-bottom">
+            <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <img src="1684522671832-thumbnaili.jpeg" title="Party Shrty" class="logo">
+                    
+            </a>
+      
+            <ul class="nav nav-pills">
+                <div class="text-end align-items-center end_nav" >
+                  <button type="button" class="btn btn-outline-light me-2" onclick="">Login</button>
+                  <button type="button" class="btn btn-warning">Sign-up</button>
+                </div>
+            </ul>
+          </header>
+          
+
+
+<div class="content">
+          <div class=" flex-shrink-0 sidebar" style="width: 280px;" margin="0">
+          
+
+            <ul class="list-unstyled ps-0">
+              <li class="mb-1">
+                <button onclick="January_show()" class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed buton" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true" onclick="">
+                  January
+                </button>
+              </li>
+              <li class="border-top my-3"></li>
+
+              <li class="mb-1">
+                <button onclick="February_show()" class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed buton" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                  February
+                </button>
+              </li>
+              <li class="border-top my-3"></li>
+
+              <li class="mb-1">
+                <button onclick="March_show()" class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed buton" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                  March
+                </button>
+              </li>
+              <li class="border-top my-3"></li>
+
+              <li class="mb-1">
+                <button onclick="April_show()" class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed buton" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                  April
+                </button>
+              </li>
+              <li class="border-top my-3"></li>
+
+              <li class="mb-1">
+                <button onclick="May_show()" class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed buton" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                  May
+                </button>
+              </li>
+              <li class="border-top my-3"></li>
+
+              <li class="mb-1">
+                <button onclick="June_show()" class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed buton" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                  June
+                </button>
+              </li>
+              <li class="border-top my-3"></li>
+
+              <li class="mb-1">
+                <button onclick="July_show()" class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed buton" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                  July
+                </button>
+              </li>
+              <li class="border-top my-3"></li>
+
+              <li class="mb-1">
+                <button onclick="August_show()" class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed buton" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                  August
+                </button>
+              </li>
+              <li class="border-top my-3"></li>
+
+              <li class="mb-1">
+                <button onclick="September_show()" class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed buton" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                  September
+                </button>
+              </li>
+              <li class="border-top my-3"></li>
+
+              <li class="mb-1">
+                <button onclick="October_show()" class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed buton" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                  October
+                </button>
+              </li>
+              <li class="border-top my-3"></li>
+
+              <li class="mb-1">
+                <button onclick="Novemebr_show()" class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed buton" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                  November
+                </button>
+
+              </li>
+              <li class="border-top my-3"></li>
+
+              <li class="mb-1">
+                <button onclick="December_show()" class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed buton" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                  December
+                </button>
+              </li>
+              <li class="border-top my-3"></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed buton" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                  Orders
+                </button>
+                <div class="collapse" id="orders-collapse" >
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class=" d-inline-flex text-decoration-none rounded sibarinlist">New</a></li>
+                    <li><a href="#" class=" d-inline-flex text-decoration-none rounded sibarinlist">Processed</a></li>
+                    <li><a href="#" class=" d-inline-flex text-decoration-none rounded sibarinlist">Shipped</a></li>
+                    <li><a href="#" class=" d-inline-flex text-decoration-none rounded sibarinlist">Returned</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="border-top my-3"></li>
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                  Account
+                </button>
+                <div class="collapse" id="account-collapse" >
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">New...</a></li>
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Profile</a></li>
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Settings</a></li>
+                    <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Sign out</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="material">
+            <div class="list-group " id="January">
+              <button type="button" class="list-group-item list-group-item-action tpo" aria-current="true">
+                FESTS
+              </button>
+              <button type="button" class="list-group-item list-group-item-action"> odyssey IIIT Delhi</button>
+              <button type="button" class="list-group-item list-group-item-action"> genesis Maharaja Surajmal Institute of Technology</button>
+              <button type="button" class="list-group-item list-group-item-action">Montage | Jesus and Mary College</button>
+            </div>
+
+            <div class="list-group February" id="February">
+              <button type="button" class="list-group-item list-group-item-action tpo" aria-current="true">
+                FESTS
+              </button>
+              <button type="button" class="list-group-item list-group-item-action"> Anugoonj   | GGsipu Dwarka campus</button>
+              <button type="button" class="list-group-item list-group-item-action"> Ullas      | Gargi College</button>
+              <button type="button" class="list-group-item list-group-item-action"> Crossroads | Sri Ram College of Commerce (SRCC)</button>
+            </div>
+
+            <div class="list-group March" id="March">
+              <button type="button" class="list-group-item list-group-item-action tpo" aria-current="true">
+                FESTS
+              </button>
+              <button type="button" class="list-group-item list-group-item-action"> Rendezvous  | IIT Delhi</button>
+              <button type="button" class="list-group-item list-group-item-action"> Nexus       | Indraprastha College for Women (IP College)</button>
+              <button type="button" class="list-group-item list-group-item-action"> Renaissance | Kirorimal college</button>
+            </div>
+
+
+            <div class="list-group April" id="April" >
+              <button type="button" class="list-group-item list-group-item-action tpo" aria-current="true">
+                FESTS
+              </button>
+              <button type="button" class="list-group-item list-group-item-action">   Tarang      | Lady Shri Ram College for Women (LSR)</button>
+              <button type="button" class="list-group-item list-group-item-action">   Moksha        | Netaji Subahs University of Technology</button>
+              <button type="button" class="list-group-item list-group-item-action">   Engifest             | Delhi Techincal Universit</button>
+            </div>
+
+            <div class="list-group May" id="May">
+              <button type="button" class="list-group-item list-group-item-action tpo" aria-current="true">
+                FESTS
+              </button>
+              <button type="button" class="list-group-item list-group-item-action">  Tarang      | Lady Shri Ram College for Women (LSR)</button>
+              <button type="button" class="list-group-item list-group-item-action">Moksha        | Netaji Subahs University of Technology</button>
+              <button type="button" class="list-group-item list-group-item-action">   Engifest             | Delhi Techincal Universit</button>
+            </div>
+
+            <div class="list-group June" id="June">
+              <button type="button" class="list-group-item list-group-item-action tpo" aria-current="true">
+                FESTS
+              </button>
+              <button type="button" class="list-group-item list-group-item-action">  Tarang      | Lady Shri Ram College for Women (LSR)</button>
+              <button type="button" class="list-group-item list-group-item-action">Moksha        | Netaji Subahs University of Technology</button>
+              <button type="button" class="list-group-item list-group-item-action">   Engifest             | Delhi Techincal Universit</button>
+            </div>
+
+            <div class="list-group July" id="July">
+              <button type="button" class="list-group-item list-group-item-action tpo" aria-current="true">
+                FESTS
+              </button>
+              <button type="button" class="list-group-item list-group-item-action">  Tarang      | Lady Shri Ram College for Women (LSR)</button>
+              <button type="button" class="list-group-item list-group-item-action">Moksha        | Netaji Subahs University of Technology</button>
+              <button type="button" class="list-group-item list-group-item-action">   Engifest             | Delhi Techincal Universit</button>
+            </div>
+
+            <div class="list-group August" id="August">
+              <button type="button" class="list-group-item list-group-item-action tpo" aria-current="true">
+                FESTS
+              </button>
+              <button type="button" class="list-group-item list-group-item-action">  Tarang      | Lady Shri Ram College for Women (LSR)</button>
+              <button type="button" class="list-group-item list-group-item-action">Moksha        | Netaji Subahs University of Technology</button>
+              <button type="button" class="list-group-item list-group-item-action">   Engifest             | Delhi Techincal Universit</button>
+            </div>
+
+            <div class="list-group October" id="October">
+              <button type="button" class="list-group-item list-group-item-action tpo" aria-current="true">
+                FESTS
+              </button>
+              <button type="button" class="list-group-item list-group-item-action">  Tarang      | Lady Shri Ram College for Women (LSR)</button>
+              <button type="button" class="list-group-item list-group-item-action">Moksha        | Netaji Subahs University of Technology</button>
+              <button type="button" class="list-group-item list-group-item-action">   Engifest             | Delhi Techincal Universit</button>
+            </div>
+
+            <div class="list-group September" id="September">
+              <button type="button" class="list-group-item list-group-item-action tpo" aria-current="true">
+                FESTS
+              </button>
+              <button type="button" class="list-group-item list-group-item-action">  Tarang      | Lady Shri Ram College for Women (LSR)</button>
+              <button type="button" class="list-group-item list-group-item-action">Moksha        | Netaji Subahs University of Technology</button>
+              <button type="button" class="list-group-item list-group-item-action">   Engifest             | Delhi Techincal Universit</button>
+            </div>
+
+            <div class="list-group November" id="Novemebr">
+              <button type="button" class="list-group-item list-group-item-action tpo" aria-current="true">
+                FESTS
+              </button>
+              <button type="button" class="list-group-item list-group-item-action">  Tarang      | Lady Shri Ram College for Women (LSR)</button>
+              <button type="button" class="list-group-item list-group-item-action">Moksha        | Netaji Subahs University of Technology</button>
+              <button type="button" class="list-group-item list-group-item-action">   Engifest             | Delhi Techincal Universit</button>
+            </div>
+
+            <div class="list-group December" id="December">
+              <button type="button" class="list-group-item list-group-item-action tpo" aria-current="true">
+                FESTS
+              </button>
+              <button type="button" class="list-group-item list-group-item-action">  Tarang      | Lady Shri Ram College for Women (LSR)</button>
+              <button type="button" class="list-group-item list-group-item-action">Moksha        | Netaji Subahs University of Technology</button>
+              <button type="button" class="list-group-item list-group-item-action">   Engifest             | Delhi Techincal Universit</button>
+            </div>
+
+
+
+
+
+            
+          </div>
+</div>
+          
+
+<script>
+  console.log('hi')
+  var q =document.getElementById('January');
+  console.log('hi')
+  var w =document.getElementById('February');
+  var e =document.getElementById('March');
+  var r =document.getElementById('April');
+  var t =document.getElementById('May');
+  var y =document.getElementById('June');
+  var u =document.getElementById('July');
+  var i =document.getElementById('August');
+  var o =document.getElementById('September');
+  var p =document.getElementById('October');
+  var a =document.getElementById('Novemebr');
+  var s =document.getElementById('December');
+  q.style.display='flex';
+  w.style.display='none';
+  e.style.display='none';
+  r.style.display='none';
+  t.style.display='none';
+  y.style.display='none';
+  u.style.display='none';
+  i.style.display='none';
+  o.style.display='none';
+  p.style.display='none';
+  a.style.display='none';
+  s.style.display='none'; 
+function January_show(){
+  console.log('hi')
+  q.style.display='flex';
+  console.log('hi')
+  w.style.display='none';
+  e.style.display='none';
+  r.style.display='none';
+  t.style.display='none';
+  y.style.display='none';
+  u.style.display='none';
+  i.style.display='none';
+  o.style.display='none';
+  p.style.display='none';
+  a.style.display='none';
+  s.style.display='none'; 
+
+}
+
+function February_show(){
+  q.style.display='none';
+  w.style.display='block';
+  e.style.display='none';
+  r.style.display='none';
+  t.style.display='none';
+  y.style.display='none';
+  u.style.display='none';
+  i.style.display='none';
+  o.style.display='none';
+  p.style.display='none';
+  a.style.display='none';
+  s.style.display='none'; 
+
+}
+
+function March_show(){
+  q.style.display='none';
+  w.style.display='none';
+  e.style.display='block';
+  r.style.display='none';
+  t.style.display='none';
+  y.style.display='none';
+  u.style.display='none';
+  i.style.display='none';
+  o.style.display='none';
+  p.style.display='none';
+  a.style.display='none';
+  s.style.display='none'; 
+
+}
+function April_show(){
+  q.style.display='none';
+  w.style.display='none';
+  e.style.display='none';
+  r.style.display='block';
+  t.style.display='none';
+  y.style.display='none';
+  u.style.display='none';
+  i.style.display='none';
+  o.style.display='none';
+  p.style.display='none';
+  a.style.display='none';
+  s.style.display='none'; 
+
+}
+function May_show(){
+  q.style.display='none';
+  w.style.display='none';
+  e.style.display='none';
+  r.style.display='none';
+  t.style.display='block';
+  y.style.display='none';
+  u.style.display='none';
+  i.style.display='none';
+  o.style.display='none';
+  p.style.display='none';
+  a.style.display='none';
+  s.style.display='none'; 
+
+}
+function June_show(){
+  q.style.display='none';
+  w.style.display='none';
+  e.style.display='none';
+  r.style.display='none';
+  t.style.display='none';
+  y.style.display='block';
+  u.style.display='none';
+  i.style.display='none';
+  o.style.display='none';
+  p.style.display='none';
+  a.style.display='none';
+  s.style.display='none'; 
+
+}
+function July_show(){
+  q.style.display='none';
+  w.style.display='none';
+  e.style.display='none';
+  r.style.display='none';
+  t.style.display='none';
+  y.style.display='none';
+  u.style.display='block';
+  i.style.display='none';
+  o.style.display='none';
+  p.style.display='none';
+  a.style.display='none';
+  s.style.display='none'; 
+
+}
+function August_show(){
+  q.style.display='none';
+  w.style.display='none';
+  e.style.display='none';
+  r.style.display='none';
+  t.style.display='none';
+  y.style.display='none';
+  u.style.display='none';
+  i.style.display='block';
+  o.style.display='none';
+  p.style.display='none';
+  a.style.display='none';
+  s.style.display='none'; 
+
+}
+function September_show(){
+  q.style.display='none';
+  w.style.display='none';
+  e.style.display='none';
+  r.style.display='none';
+  t.style.display='none';
+  y.style.display='none';
+  u.style.display='none';
+  i.style.display='none';
+  o.style.display='block';
+  p.style.display='none';
+  a.style.display='none';
+  s.style.display='none'; 
+
+}
+function October_show(){
+  q.style.display='none';
+  w.style.display='none';
+  e.style.display='none';
+  r.style.display='none';
+  t.style.display='none';
+  y.style.display='none';
+  u.style.display='none';
+  i.style.display='none';
+  o.style.display='none';
+  p.style.display='block';
+  a.style.display='none';
+  s.style.display='none'; 
+
+}
+function Novemebr_show(){
+  q.style.display='none';
+  w.style.display='none';
+  e.style.display='none';
+  r.style.display='none';
+  t.style.display='none';
+  y.style.display='none';
+  u.style.display='none';
+  i.style.display='none';
+  o.style.display='none';
+  p.style.display='none';
+  a.style.display='block';
+  s.style.display='none'; 
+
+}
+function December_show(){
+  q.style.display='none';
+  w.style.display='none';
+  e.style.display='none';
+  r.style.display='none';
+  t.style.display='none';
+  y.style.display='none';
+  u.style.display='none';
+  i.style.display='none';
+  o.style.display='none';
+  p.style.display='none';
+  a.style.display='none';
+  s.style.display='block'; 
+
+}
+</script>
