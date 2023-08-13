@@ -135,8 +135,7 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    left:20%;
-    max-width: 15rem;
+    justify-content: center;
 }
 .textinboxes{
     position: relative;
