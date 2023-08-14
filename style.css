@@ -222,6 +222,7 @@
     position: relative;
     top:23%;
     display: flex;
+    flex-wrap:wrap;
 }
 .textinend{
     position: relative;
