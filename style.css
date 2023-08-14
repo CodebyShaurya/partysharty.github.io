@@ -208,9 +208,8 @@
 
 .end {
     background-color: #000;
-    height:200px;
-    bottom:-10px;
-    margin-left: -9px;
+    bottom:0px;
+    width:100%;
     color: #fff;
 
 }
