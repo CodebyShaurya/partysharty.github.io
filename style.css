@@ -121,7 +121,6 @@
 .desc {
     position:relative;
     font-size: 40px;
-    max-width: 1500px;
     font-family: Garamond, serif;
     text-align: center;
     /* color: #fff; */
@@ -131,6 +130,7 @@
     grid-gap:10px;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     justify-items: center;
+    margin:1rem;
 }
 .textinboxes{
     position: relative;
@@ -214,10 +214,9 @@
     left:10%;
 }
 .settinginend{
-    position: relative;
-    top:23%;
-    display: flex;
-    flex-wrap:wrap;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    justify-items: center;
 }
 .textinend{
     position: relative;
