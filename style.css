@@ -208,11 +208,11 @@
     color: #fff;
 
 }
-.logoinend{
+/*.logoinend{
     position: relative;
     top:50%;
     left:10%;
-}
+}*/
 .settinginend{
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
